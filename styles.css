@@ -1,0 +1,49 @@
+body {
+    background-image: url('Downloads/spectrum-gradient.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Player";
+}
+
+button {
+    font-family: "Player";
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    bottom: 100px;
+    right: 200px; 
+    border: none;
+    position: absolute;
+    background-image: linear-gradient(180deg, rgba(89, 248, 57, 1), rgba(97, 94, 48, 1) 89%);
+}
+
+
+.secondButton {
+    background-image: linear-gradient(360deg, rgba(219, 87, 205, 1), rgba(47, 237, 167, 1));
+
+}
+
+button:hover{
+    background-image: linear-gradient(180deg, rgba(255, 22, 22, 1), rgba(134, 0, 255, 1));
+    color: white;
+}
+
+.title {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+.weed {
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ @font-face {
+    font-family: "Player";
+    src: url(Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+ }
+ 
